@@ -100,7 +100,7 @@ const questions = [
     name: "license",
     message:
       "Include a license to let other developers know what they can and cannot do with your project",
-    choices: ["MIT", "Apache", "GPL", "ISC", "AGPL", "MPL"],
+    choices: ["MIT", "Apache", "GPL", "MPL", "BSL", "EPL"],
     validate: (value) => {
       if (value) {
         return true;
@@ -122,13 +122,18 @@ const questions = [
   },
 ];
 
-inquirer.prompt(questions).then((answers) => {
-  console.log(JSON.stringify(answers));
-  fs.writeFile("README.md", generateMarkdown(answers), (err) => {
-    if (err) {
-      return console.log(err);
-    } else {
-      console.log("Readme.md file generated!");
-    }
+inquirer
+  .prompt(questions)
+  .then((answers) => {
+    console.log(JSON.stringify(answers));
+    fs.writeFile("README.md", generateMarkdown(answers), (err) => {
+      if (err) {
+        return console.log(err);
+      } else {
+        console.log("Readme.md file generated!");
+      }
+    });
+  })
+  .catch((err) => {
+    console.log(err);
   });
-});
