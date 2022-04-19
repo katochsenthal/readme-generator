@@ -20,14 +20,32 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// function returns the license link
+function renderLink(license) {
+  if (!license) {
+    return "";
+  } else if (license === "MIT") {
+    return `[For More Information on ${license}] ](https://opensource.org/licenses/MIT)`;
+  } else if (license === "Apache") {
+    return "![Alt text](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)";
+  } else if (license === "GPL") {
+    return "![Alt text](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge)";
+  } else if (license === "MPL") {
+    return "![Alt text](https://img.shields.io/badge/License-MPL%202.0-brightgreen?style=for-the-badge)";
+  } else if (license === "BSL") {
+    return "![Alt text](https://img.shields.io/badge/License-Boost%201.0-lightblue?style=for-the-badge)";
+  } else if (license === "ESL") {
+    return "![Alt text](https://img.shields.io/badge/License-EPL%201.0-red?style=for-the-badge)";
+  } else {
+    return "";
+  }
+}
 
 // Create a function to generate markdown for README
 
 function generateMarkdown(data) {
   const licenseBadge = renderLicenseBadge(data.license);
-
+  const licenseLink = renderLink(license);
   return ` 
   # ${licenseBadge}
   # ${data.project_title}
@@ -56,7 +74,7 @@ function generateMarkdown(data) {
   ${"https://github.com/" + data.github_username}
 
   ## 📜 Licenses
-  ${data.license}
+  ${data.license} ${licenseLink}
 
   ##❓ Questions?
   ${data.questions}
