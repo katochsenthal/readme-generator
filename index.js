@@ -96,7 +96,7 @@ const questions = [
     },
   },
   {
-    type: "checkbox",
+    type: "list",
     name: "license",
     message:
       "Include a license to let other developers know what they can and cannot do with your project",
