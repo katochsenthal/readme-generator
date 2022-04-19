@@ -1,12 +1,12 @@
  
-  # ![Alt text](https://img.shields.io/badge/License-Boost%201.0-lightblue?style=for-the-badge)
-  # readme.md
+  # ![Alt text](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+  # skadasd
 
   ## 📄 Description
-    readme.md
+    adsdas
 
   ## 𝌞 Table of Contents
-  dfsd fdas faas fadsd daas 
+  asd
   1. [Installation](#installation)
   2. [Usage](#usage)
   3. [Credits](#credits)
@@ -14,22 +14,22 @@
   5. [Licenses](#licenses)
 
   ## 🏁 Installation
-  dasasd
+  sadads
 
   ## 🎮 Usage
-  sdada
+  sad
 
   ## ❤️ Credits
-  undefined
+  sad
 
   ## 📜 Licenses
-  BSL 
-  [For More Information](https://www.boost.org/users/license.html)
+  MIT 
+  [For More Information](https://opensource.org/licenses/MIT)
 
   ##❓ Questions?
-  https://github.com/dsas
-  df
+  https://github.com/sa
+  sad
 
   ## 🧪 Test Instructions
-  sad
+  asd
 

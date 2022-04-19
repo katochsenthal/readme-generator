@@ -3,7 +3,8 @@ const { deepStrictEqual } = require("assert");
 
 const fs = require("fs");
 const inquirer = require("inquirer");
-const { generateMarkdown } = require("./utils/generateMarkdown");
+// const { generateMarkdown } = require("./utils/generateMarkdown");
+const markdown = require("./utils/generateMarkdown");
 
 // array of questions for user input
 
@@ -37,7 +38,7 @@ const questions = [
   {
     type: "input",
     name: "content",
-    message: "Table of Contents",
+    message: "Select which sections to table of contents",
   },
   {
     type: "input",
@@ -70,7 +71,7 @@ const questions = [
 
   {
     type: "input",
-    name: "Credits",
+    name: "credits",
     message:
       "List your collaborators, or any third-party assets that require attribution",
     validate: (nameInput) => {
@@ -126,7 +127,7 @@ inquirer
   .prompt(questions)
   .then((answers) => {
     console.log(JSON.stringify(answers));
-    fs.writeFile("README.md", generateMarkdown(answers), (err) => {
+    fs.writeFile("README.md", markdown.generateMarkdown(answers), (err) => {
       if (err) {
         return console.log(err);
       } else {

@@ -84,4 +84,4 @@ function generateMarkdown(data) {
 `;
 }
 
-module.exports = { generateMarkdown, renderLicenseBadge };
+module.exports = { generateMarkdown };
