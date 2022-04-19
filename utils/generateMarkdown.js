@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// function returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (!license) {
@@ -41,7 +41,7 @@ function renderLink(license) {
   }
 }
 
-// Create a function to generate markdown for README
+// function to generate markdown for README
 
 function generateMarkdown(data) {
   const licenseBadge = renderLicenseBadge(data.license);
@@ -70,14 +70,12 @@ function generateMarkdown(data) {
   ## ❤️ Credits
   ${data.credits}
 
-  ## 👩‍💻 GitHub username
-  ${"https://github.com/" + data.github_username}
-
   ## 📜 Licenses
   ${data.license} 
   ${licenseLink}
 
   ##❓ Questions?
+  ${"https://github.com/" + data.github_username}
   ${data.questions}
 
   ## 🧪 Test Instructions
