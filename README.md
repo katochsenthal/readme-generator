@@ -1,12 +1,12 @@
  
-  # ![Alt text](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-  # asasd
+  # ![Alt text](https://img.shields.io/badge/License-MPL%202.0-brightgreen?style=for-the-badge)
+  # sassa
 
   ## 📄 Description
-    sasad
+    sadsd
 
   ## 𝌞 Table of Contents
-  sdsa
+  dasd
   1. [Installation](#installation)
   2. [Usage](#usage)
   3. [Credits](#credits)
@@ -14,23 +14,24 @@
   5. [Licenses](#licenses)
 
   ## 🏁 Installation
-  dasas
+  ssaasd
 
   ## 🎮 Usage
-  dsdsa
+  dsad
 
   ## ❤️ Credits
   undefined
 
   ## 👩‍💻 GitHub username
-  https://github.com/dsa
+  https://github.com/sadas
 
   ## 📜 Licenses
-  MIT
+  MPL 
+  [For More Information](https://www.mozilla.org/en-US/MPL/)
 
   ##❓ Questions?
-  sda
+  das
 
   ## 🧪 Test Instructions
-  dsa
+  das
 
