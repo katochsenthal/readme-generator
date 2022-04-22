@@ -8,30 +8,30 @@ An automated README.md generator that uses, Inquirer NPM, File System (FS), and 
 
 Installation,credits
 
-1. [Installation ](#installation-)
-2. [Usage ](#usage-)
-3. [Credits ](#credits-)
-4. [GitHub Username ](#gitHub-username-)
-5. [Licenses ](#licenses-)
+1. [Installation ](#installation)
+2. [Usage ](#usage)
+3. [Credits ](#credits)
+4. [Licenses ](#licenses)
 
-## 🏁 Installation
+## Installation
 
 The README generator requires installation of Node.js and Inquirer NPM package.
 
-## 🎮 Usage
+## Usage
 
 To use the README run: "NODE index.js"
 
-## ❤️ Credits
+## Credits
 
 Senthol
 
-## 📜 Licenses
+## Licenses
 
 MIT
 [For More Information](https://opensource.org/licenses/MIT)
 
-##❓ Questions?
+## Questions?
+
 Reach out for any questions:
 
 https://github.com/katochsenthal,
