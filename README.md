@@ -1,12 +1,12 @@
  
   # ![Alt text](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-  # skadasd
+  # Readme-generator
 
   ## 📄 Description
-    adsdas
+    This is a command-line application to generate professional README file.
 
   ## 𝌞 Table of Contents
-  asd
+  Installation,Usage,credits
   1. [Installation](#installation)
   2. [Usage](#usage)
   3. [Credits](#credits)
@@ -14,22 +14,25 @@
   5. [Licenses](#licenses)
 
   ## 🏁 Installation
-  sadads
+  git clone repository, install node.js, install inquirer
 
   ## 🎮 Usage
-  sad
+  assets/images/ss2.png, assets/images/ss2.png
 
   ## ❤️ Credits
-  sad
+  katoch/senthal
 
   ## 📜 Licenses
+  
   MIT 
   [For More Information](https://opensource.org/licenses/MIT)
 
   ##❓ Questions?
-  https://github.com/sa
-  sad
+
+  https://github.com/katochsenthal,
+
+  example.com
 
   ## 🧪 Test Instructions
-  asd
+  node index.js
 

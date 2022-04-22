@@ -36,11 +36,20 @@ const questions = [
     },
   },
   {
-    type: "input",
+    type: "checkbox",
     name: "content",
-    message: "Select which sections to table of contents",
+    message:
+      "Please select optional items you would like to include in the table of content",
+    choices: ["Installation", "Usage", "credits"],
   },
   {
+    when: (answers) => {
+      if (answers.content.includes("Installation")) {
+        return true;
+      } else {
+        return false;
+      }
+    },
     type: "input",
     name: "installation",
     message:
@@ -55,6 +64,13 @@ const questions = [
     },
   },
   {
+    when: (answers) => {
+      if (answers.content.includes("Usage")) {
+        return true;
+      } else {
+        return false;
+      }
+    },
     type: "input",
     name: "usage",
     message:
@@ -70,6 +86,13 @@ const questions = [
   },
 
   {
+    when: (answers) => {
+      if (answers.content.includes("Usage")) {
+        return true;
+      } else {
+        return false;
+      }
+    },
     type: "input",
     name: "credits",
     message:
@@ -114,12 +137,20 @@ const questions = [
   {
     type: "input",
     name: "questions",
-    message: "For future questions enter your email?",
+    message: "To receive future questions from users enter your email?",
   },
   {
     type: "input",
     name: "tests",
     message: "Instructions on how to test your project",
+    validate: (value) => {
+      if (value) {
+        return true;
+      } else {
+        console.log("Please enter instructions to test your project");
+        return false;
+      }
+    },
   },
 ];
 

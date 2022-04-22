@@ -24,20 +24,28 @@ function renderLicenseBadge(license) {
 function renderLink(license) {
   if (!license) {
     return "";
-  } else if (license === "MIT") {
-    return `[For More Information](https://opensource.org/licenses/MIT)`;
-  } else if (license === "Apache") {
-    return `[For More Information](https://www.apache.org/licenses/LICENSE-2.0)`;
-  } else if (license === "GPL") {
-    return `[For More Information](https://www.gnu.org/licenses/gpl-3.0.en.html)`;
-  } else if (license === "MPL") {
-    return `[For More Information](https://www.mozilla.org/en-US/MPL/)`;
-  } else if (license === "BSL") {
-    return `[For More Information](https://www.boost.org/users/license.html)`;
-  } else if (license === "ESL") {
-    return `[For More Information](https://www.eclipse.org/legal/epl-2.0/)`;
-  } else {
-    return "";
+  }
+  switch (license) {
+    case "MIT":
+      return `[For More Information](https://opensource.org/licenses/MIT)`;
+
+    case "Apache":
+      return `[For More Information](https://www.apache.org/licenses/LICENSE-2.0)`;
+
+    case "GPL":
+      return `[For More Information](https://www.gnu.org/licenses/gpl-3.0.en.html)`;
+
+    case "MPL":
+      return `[For More Information](https://www.mozilla.org/en-US/MPL/)`;
+
+    case "BSL":
+      return `[For More Information](https://www.boost.org/users/license.html)`;
+
+    case "ESL":
+      return `[For More Information](https://www.eclipse.org/legal/epl-2.0/)`;
+
+    default:
+      return "";
   }
 }
 
@@ -71,11 +79,14 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ## 📜 Licenses
+  
   ${data.license} 
   ${licenseLink}
 
   ##❓ Questions?
-  ${"https://github.com/" + data.github_username}
+
+  ${"https://github.com/" + data.github_username},
+
   ${data.questions}
 
   ## 🧪 Test Instructions
