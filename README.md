@@ -8,11 +8,11 @@ An automated README.md generator that uses, Inquirer NPM, File System (FS), and 
 
 Installation,credits
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Credits](#credits)
-4. [GitHub Username](#gitHub-username)
-5. [Licenses](#licenses)
+1. [Installation ](#installation-)
+2. [Usage ](#usage-)
+3. [Credits ](#credits-)
+4. [GitHub Username ](#gitHub-username-)
+5. [Licenses ](#licenses-)
 
 ## 🏁 Installation
 
