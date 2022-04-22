@@ -1,12 +1,12 @@
  
   # ![Alt text](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-  # readme-generator
+  # Readme-generator
 
   ## 📄 Description
-    This will generate readme file for users.
+    sdass asdsd asdas asdd dsa dsaasdas asd
 
   ## 𝌞 Table of Contents
-  Installation,Usage,credits
+  Installation,credits
   1. [Installation](#installation)
   2. [Usage](#usage)
   3. [Credits](#credits)
@@ -14,13 +14,13 @@
   5. [Licenses](#licenses)
 
   ## 🏁 Installation
-  git clone this repo, install inquirer and node
+  clone repo, install node and inquirer
 
   ## 🎮 Usage
-  To run app index.js
+  undefined
 
   ## ❤️ Credits
-  sam, harry
+  undefined
 
   ## 📜 Licenses
   
@@ -29,9 +29,9 @@
 
   ##❓ Questions?
 
-  https://github.com/katoch/senthal,
+  https://github.com/katcoj,
 
-  kd!gmail.com
+  example@gmail.com
 
   ## 🧪 Test Instructions
   index.js
