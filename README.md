@@ -18,6 +18,11 @@
 
   ## 🎮 Usage
   To run app index.js
+  
+
+https://user-images.githubusercontent.com/55201249/164798560-f050c5a1-2b30-49ab-836a-74fdaa687422.mov
+
+
 
   ## ❤️ Credits
   sam, harry
