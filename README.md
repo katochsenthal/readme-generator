@@ -21,6 +21,11 @@ The README generator requires installation of Node.js and Inquirer NPM package.
 
 To use the README run: "NODE index.js"
 
+## Screenshots
+
+![Alt text](assets/images/ss3.png)
+![Alt text](assets/images/ss1.png)
+
 ## Credits
 
 Senthol
