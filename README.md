@@ -1,9 +1,9 @@
  
   # ![Alt text](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-  # Readme-generator
+  # readme-generator
 
   ## 📄 Description
-    This is a command-line application to generate professional README file.
+    This will generate readme file for users.
 
   ## 𝌞 Table of Contents
   Installation,Usage,credits
@@ -14,13 +14,13 @@
   5. [Licenses](#licenses)
 
   ## 🏁 Installation
-  git clone repository, install node.js, install inquirer
+  git clone this repo, install inquirer and node
 
   ## 🎮 Usage
-  assets/images/ss2.png, assets/images/ss2.png
+  To run app index.js
 
   ## ❤️ Credits
-  katoch/senthal
+  sam, harry
 
   ## 📜 Licenses
   
@@ -29,10 +29,10 @@
 
   ##❓ Questions?
 
-  https://github.com/katochsenthal,
+  https://github.com/katoch/senthal,
 
-  example.com
+  kd!gmail.com
 
   ## 🧪 Test Instructions
-  node index.js
+  index.js
 

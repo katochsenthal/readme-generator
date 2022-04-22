@@ -73,8 +73,7 @@ const questions = [
     },
     type: "input",
     name: "usage",
-    message:
-      "Provide instructions and examples for use. Provide screenshots or a video url to the project",
+    message: "Please provide usage instructions",
     validate: (nameInput) => {
       if (nameInput) {
         return true;
